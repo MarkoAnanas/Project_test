@@ -26,7 +26,7 @@ const Scene1 = () => {
           transition={{ duration: 1.5 }}
           onAnimationComplete={() => {
             if (leaving) {
-              setCurrentState("Scene2")
+              setCurrentState("Scene2");
             }
           }}
           style={{
@@ -44,7 +44,7 @@ const Scene1 = () => {
               typeSpeed={125}
               backSpeed={50}
               showCursor={false}
-              className="WelcomeText"
+              className="Scene1WelcomeText"
               onComplete={showButtonHandler}
             />
           </div>

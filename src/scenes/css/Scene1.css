@@ -25,14 +25,19 @@
   justify-content: center;
   align-items: center;
 }
-.WelcomeText {
+.Scene1WelcomeText {
   position: relative;
 
   font-family: "Orbitron", sans-serif;
-  font-size: clamp(4rem, 10vw, 9rem);
+
+  font-size: clamp(5.5rem, 11vw, 10rem);
+
   font-weight: 700;
 
+  line-height: 1;
+
   letter-spacing: 0.08em;
+
   text-align: center;
 
   color: #e0f2fe;
@@ -49,7 +54,7 @@
     0 0 10px rgba(56, 189, 248, 0.5),
     0 0 30px rgba(37, 99, 235, 0.35);
 }
-.WelcomeText:hover {
+.Scene1WelcomeText:hover {
   color: #67e8f9;
 
   transform: scale(1.04);
@@ -132,13 +137,14 @@
   }
 
   .WelcomeText {
-    font-size: clamp(3.5rem, 12vw, 6rem);
+    font-size: clamp(4.5rem, 14vw, 7rem);
   }
 
   .StartButton {
     width: 75vw;
   }
 }
+
 @media (max-width: 600px) {
   .Container {
     gap: 9vh;
@@ -146,7 +152,7 @@
   }
 
   .WelcomeText {
-    font-size: clamp(3rem, 18vw, 5rem);
+    font-size: clamp(4rem, 16vw, 6rem);
     letter-spacing: 0.05em;
   }
 
@@ -164,9 +170,10 @@
     font-size: 1.1rem;
   }
 }
+
 @media (max-width: 350px) {
   .WelcomeText {
-    font-size: 2.7rem;
+    font-size: 3.5rem;
   }
 
   .StartButton {
