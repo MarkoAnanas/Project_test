@@ -26,7 +26,7 @@ const Scene1 = () => {
           transition={{ duration: 1.5 }}
           onAnimationComplete={() => {
             if (leaving) {
-              setCurrentState("Scene2");
+              setCurrentState("Scene2")
             }
           }}
           style={{
