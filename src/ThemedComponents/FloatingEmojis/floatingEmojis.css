@@ -1,0 +1,23 @@
+.FloatingLayer {
+  position: fixed;
+  inset: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  pointer-events: none;
+
+  z-index: 5;
+}
+
+.FloatingEmoji {
+  position: absolute;
+
+  bottom: -60px;
+
+  user-select: none;
+  pointer-events: none;
+
+  will-change: transform, opacity;
+
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.35));
+}

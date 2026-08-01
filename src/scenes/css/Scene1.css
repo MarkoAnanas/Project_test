@@ -8,17 +8,10 @@
   justify-content: space-evenly;
   box-sizing: border-box;
 
-  background:
-    radial-gradient(
-      circle at 50% 35%,
-      rgba(0, 110, 255, 0.15),
-      transparent 35%
-    ),
-    linear-gradient(135deg, #020617 0%, #06152e 50%, #020617 100%);
-
   overflow: hidden;
 
   font-family: "Orbitron", sans-serif;
+  z-index: 10;
 }
 .Welcome {
   display: flex;
